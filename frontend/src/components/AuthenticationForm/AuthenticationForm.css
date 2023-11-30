@@ -1,0 +1,53 @@
+.video {
+  object-fit: cover;
+}
+.mask {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.auth-form {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: fit-content;
+  min-height: 75%;
+  width: 40%;
+  margin-top: 3rem;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 0.1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+.text-logo {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--main-color);
+  font-style: italic;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: var(--main-color);
+  font-size: 1.2rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin: 2rem;
+}
+.button:hover {
+  background-color: var(--main-color);
+}
+.button-main{
+  background-color: var(--main-color);
+  box-shadow: none;
+}
+.button-main:hover{
+  background-color: var(--main-color);
+  box-shadow: none;
+}
+
+.text-title {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+  .auth-form {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #e50914;
+}
+a{
+    text-decoration: none;
+}
+.text_custom {
+    font-family: "Barlow Condensed", sans-serif !important;
+  }

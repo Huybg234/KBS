@@ -1,0 +1,11 @@
+.heigh__search{
+    height: 12rem;
+    width: 80%;
+    object-fit: cover;
+}
+
+.heigh__movie-detail{
+    height: 6.8rem;
+    width: 100%;
+    object-fit: cover;
+}
